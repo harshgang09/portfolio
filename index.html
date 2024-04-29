@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO-HARSH</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/f2b329f080.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Web Developer</p>
+                <h1>Hi, I'm <span>HARSH</span><br />from India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/user.png" />
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        I am a versatile front-end web developer with a keen eye for design and user experience. Equipped with expertise in app development and data analysis, I craft seamless digital experiences that marry aesthetics with functionality. From creating captivating websites to delving into app development and harnessing data insights, I can be your go-to professional for holistic digital solutions.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>FrontEnd Web Development</span><br><ul>
+                                    <li>HTML5 & CSS3</li>
+                                    <li>JAVASCRIPT</li>
+                                    <li>REACT.JS </li>
+                                    
+                                    <li>BOOTSTRAP CSS</li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Backend Web Development</span><br><ul>
+                                    <li>JAVASCRIPT</li>
+                                    <li>MONGO DB</li>
+                                    <li>EXPRESS.JS</li>
+                                    <li>NODE.JS</li>
+                                    <li>NEXT.JS</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2022-2026</span><br>B.TECH in Computer Science and Engineering<br>from Ajeenkya DY
+                                Patil University, Pune, Maharashtra, India
+                            </li>
+                            <li>
+                                <span>2020-2022</span><br>Cambridge International A Levels(Higher Secondary
+                                Education)<br>from PP Savani Cambridge International School, Surat, Gujarat, India
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>June 2023-August 2023</span><br>FrontEnd Web Developer Intern<br> at XpertsTim IT
+                                Services Pvt Ltd.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh,
+                        tincidunt sit amet sapien quis.</p>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh,
+                        tincidunt sit amet sapien quis. </p>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh,
+                        tincidunt sit amet sapien quis.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/todo.png">
+                    <div class="layer">
+                        <h3>TO DO LIST</h3>
+                        <p>The website helps you remember your day to day task and helps to orgainse your day efficiently</p>
+                        <a href="https://github.com/harshgang09/todollist"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/amazon.png">
+                    <div class="layer">
+                        <h3>Amazon clone</h3>
+                        <p>A responsive clone website of an ecommerce website Amazon</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="project">
+                    <img src="images/portfolio.png">
+                    <div class="layer">
+                        <h3>Portfolio website</h3>
+                        <p>Website I use to show my skills and work to the world </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+              
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-regular fa-envelope"></i>harsh.gang@adypu.edu.in</p>
+                <p><i class="fa-solid fa-phone"></i>+91 6356462247</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyrights © reserved by harsh gang contact harsh.gang@adypu.edu.in </p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxV1V7X2ppR3OeeWoUEiHcdeKDgAcHxDcusd4eAQONRdVo7-kj_6DgALBKrw_tRJFpQOA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
